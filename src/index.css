@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /*Header*/
+    .list-items {
+        @apply text-white px-5;
+    }
+}
