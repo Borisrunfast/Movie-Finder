@@ -5,6 +5,9 @@
 @layer components {
     /*Header*/
     .list-items {
-        @apply text-white px-5;
+        @apply text-white pb-2 px-5 text-xl;
+    }
+    .list-items:nth-child(1) {
+        @apply pt-2;
     }
 }
