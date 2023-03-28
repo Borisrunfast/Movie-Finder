@@ -4,6 +4,11 @@
 
 @layer components {
     /*Header*/
+    .any-text {
+        @apply text-gray-100 ;
+    }
+
+
     .list-items {
         @apply text-white pb-2 px-5 text-xl;
     }

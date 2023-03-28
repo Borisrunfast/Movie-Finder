@@ -1,6 +1,14 @@
+import MovieTemplate from "../Movies/MovieTemplate"
+
 function Home() {
 
-    return ( <h1>Home</h1> )
+
+
+    return ( 
+        <div className=" w-full h-auto">
+            <MovieTemplate />
+        </div>
+    )
 }
 
 export default Home

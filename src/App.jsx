@@ -7,7 +7,7 @@ import Favorite from "./Pages/Favorite"
 function App() {
 
   return (
-    <div className="App bg-gray-800 w-screen h-screen">
+    <div className="App any-text bg-gray-800 w-screen h-screen">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
